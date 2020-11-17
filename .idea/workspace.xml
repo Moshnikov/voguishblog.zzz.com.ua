@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="306802e5-4437-4ffc-a4c8-93375b6ae1bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bitrixsetup.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kEVZqtxiQh2zoq7JyPlRoO43Vf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="306802e5-4437-4ffc-a4c8-93375b6ae1bb" name="Default Changelist" comment="" />
+      <created>1605265796950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605265796950</updated>
+      <workItem from="1605265799325" duration="2351000" />
+      <workItem from="1605274444011" duration="3342000" />
+      <workItem from="1605344750605" duration="2732000" />
+      <workItem from="1605519619364" duration="2965000" />
+      <workItem from="1605538609353" duration="360000" />
+      <workItem from="1605539182655" duration="287000" />
+      <workItem from="1605539488172" duration="77000" />
+      <workItem from="1605539762480" duration="3026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="88" key="#Deployment" timestamp="1605274837687">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="320" y="88" key="#Deployment/0.23.1440.799@0.23.1440.799" timestamp="1605274837687" />
+    <state x="334" y="102" key="#Options" timestamp="1605274568502">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="334" y="102" key="#Options/0.23.1440.799@0.23.1440.799" timestamp="1605274568502" />
+    <state x="304" y="75" key="#SSH_Configurations" timestamp="1605267026619">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="304" y="75" key="#SSH_Configurations/0.23.1440.799@0.23.1440.799" timestamp="1605267026619" />
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605274619289">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.799@0.23.1440.799" timestamp="1605274619289" />
+    <state x="415" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605522490218">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="415" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.799@0.23.1440.799" timestamp="1605522490218" />
+    <state x="59" y="23" width="1240" height="599" key="DirDiffDialog" timestamp="1605350216203">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="59" y="23" width="1240" height="599" key="DirDiffDialog/0.23.1440.799@0.23.1440.799" timestamp="1605350216203" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1605271938422">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.799@0.23.1440.799" timestamp="1605271938422" />
+    <state x="553" y="328" key="WebDeployment.AddServerDialog.v.1" timestamp="1605274654642">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="553" y="328" key="WebDeployment.AddServerDialog.v.1/0.23.1440.799@0.23.1440.799" timestamp="1605274654642" />
+  </component>
+</project>
