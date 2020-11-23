@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="306802e5-4437-4ffc-a4c8-93375b6ae1bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bitrixsetup.php" beforeDir="false" />
-    </list>
+    <list default="true" id="306802e5-4437-4ffc-a4c8-93375b6ae1bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +30,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Mosnikov/voguishblog.ml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1kEVZqtxiQh2zoq7JyPlRoO43Vf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,12 +51,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/voguish_index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates" />
+      <recent name="$PROJECT_DIR$/local/templates/voguish_index" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -70,7 +81,8 @@
       <workItem from="1605538609353" duration="360000" />
       <workItem from="1605539182655" duration="287000" />
       <workItem from="1605539488172" duration="77000" />
-      <workItem from="1605539762480" duration="3026000" />
+      <workItem from="1605539762480" duration="27937000" />
+      <workItem from="1605956135540" duration="5160000" />
     </task>
     <servers />
   </component>
@@ -90,10 +102,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="88" key="#Deployment" timestamp="1605274837687">
+    <state x="320" y="88" key="#Deployment" timestamp="1605706433043">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
-    <state x="320" y="88" key="#Deployment/0.23.1440.799@0.23.1440.799" timestamp="1605274837687" />
+    <state x="320" y="88" key="#Deployment/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605706433043" />
+    <state x="320" y="88" key="#Deployment/0.23.1440.799@0.23.1440.799" timestamp="1605612598495" />
     <state x="334" y="102" key="#Options" timestamp="1605274568502">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
@@ -102,18 +115,39 @@
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="304" y="75" key="#SSH_Configurations/0.23.1440.799@0.23.1440.799" timestamp="1605267026619" />
-    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605274619289">
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605706623616">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605706623616" />
     <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.799@0.23.1440.799" timestamp="1605274619289" />
     <state x="415" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605522490218">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="415" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.799@0.23.1440.799" timestamp="1605522490218" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1605706525398">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605706525398" />
+    <state x="100" y="123" width="1240" height="604" key="DiffContextDialog" timestamp="1605691217578">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="100" y="123" width="1240" height="604" key="DiffContextDialog/-254.-1057.1920.1057/0.23.1440.805@0.23.1440.805" timestamp="1605691217578" />
     <state x="59" y="23" width="1240" height="599" key="DirDiffDialog" timestamp="1605350216203">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="59" y="23" width="1240" height="599" key="DirDiffDialog/0.23.1440.799@0.23.1440.799" timestamp="1605350216203" />
+    <state x="624" y="184" key="FileChooserDialogImpl" timestamp="1605794257661">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="624" y="184" key="FileChooserDialogImpl/-254.-1057.1920.1057/0.23.1440.800@0.23.1440.800" timestamp="1605794257661" />
+    <state x="522" y="357" key="NewPhpFileDialog" timestamp="1605628430565">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="522" y="357" key="NewPhpFileDialog/-254.-1057.1920.1057/0.23.1440.805@0.23.1440.805" timestamp="1605628430565" />
+    <state x="221" y="61" key="SettingsEditor" timestamp="1605956986301">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="221" y="61" key="SettingsEditor/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605956986301" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1605271938422">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
@@ -122,5 +156,21 @@
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="553" y="328" key="WebDeployment.AddServerDialog.v.1/0.23.1440.799@0.23.1440.799" timestamp="1605274654642" />
+    <state x="512" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605706613547">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="512" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605706613547" />
+    <state x="269" y="129" width="849" height="490" key="find.popup" timestamp="1605794286346">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="269" y="129" width="849" height="490" key="find.popup/-254.-1057.1920.1057/0.23.1440.800@0.23.1440.800" timestamp="1605794286346" />
+    <state x="636" y="287" key="scopes" timestamp="1605794251064">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="636" y="287" key="scopes/-254.-1057.1920.1057/0.23.1440.800@0.23.1440.800" timestamp="1605794251064" />
+    <state x="385" y="146" width="670" height="676" key="search.everywhere.popup" timestamp="1605956563983">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="385" y="146" width="670" height="676" key="search.everywhere.popup/-254.-1057.1920.1057/0.23.1440.799@0.23.1440.799" timestamp="1605956563983" />
   </component>
 </project>
