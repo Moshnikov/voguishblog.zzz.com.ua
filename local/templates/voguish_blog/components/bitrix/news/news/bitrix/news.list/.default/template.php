@@ -20,7 +20,7 @@ $this->setFrameMode(true);
                 <a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><img src="<?=$arItem['DETAIL_PICTURE']['SRC'];?>" title="post-name"></a>
             </div>
             <div class="blog-artical-info-head">
-                <h2><a href="<?=$arItem['DETAIL_PICTURE']['SRC'];?>"><?=$arItem['NAME'];?></a></h2>
+                <h2><a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><?=$arItem['NAME'];?></a></h2>
                 <h6>Posted on, <?=$arItem['ACTIVE_FROM'];?></h6>
 
             </div>
@@ -29,8 +29,8 @@ $this->setFrameMode(true);
             </div>
             <div class="artical-links">
                 <ul>
-                    <li><small> </small><span><?=$arItem['PROPERTIES']['AUTHOR']['VALUE'];?></span></li>
-                    <li><a href="#"><small class="admin"> </small><span><?=$arItem['ACTIVE_FROM'];?></span></a></li>
+                    <li><small> </small><span><?=$arItem['DISPLAY_ACTIVE_FROM'];?></span></li>
+                    <li><a href="#"><small class="admin"> </small><span><?=$arItem['PROPERTIES']['AUTHOR']['VALUE'];?></span></a></li>
                     <li><a href="#"><small class="no"> </small><span>No comments</span></a></li>
                     <li><a href="#"><small class="posts"> </small><span>View posts: <?=$arItem['SHOW_COUNTER'] ? $arItem['SHOW_COUNTER'] : 0;?></span></a></li>
                     <li><a href="<?=$arItem['DETAIL_PAGE_URL'];?>"><small class="link"> </small><span>permalink</span></a></li>

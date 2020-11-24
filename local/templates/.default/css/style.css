@@ -1235,7 +1235,8 @@ i.adm1{
   background: #171717;
   padding:2em;
 }
-.single-top p {
+.single-top p,
+.blog-content-left p{
   color:#302e2e;
   font-size: 1em;
   font-weight: 400;
