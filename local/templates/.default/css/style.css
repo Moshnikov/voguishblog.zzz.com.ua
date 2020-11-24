@@ -1344,12 +1344,13 @@ a.reply:hover{
 .comment input[type="submit"]:hover{
 	background:#26313b;
 }
-.single-top h2 {
+.single-top h2,
+.respon h2{
   color:#f53f1a;
   font-weight: 700;
   font-size: 1.5em;
   margin-bottom: 1em;
-   font-family: 'Libre Baskerville', serif;
+	font-family: 'Libre Baskerville', serif;
 }
 .respon h5 {
   color: #fff;

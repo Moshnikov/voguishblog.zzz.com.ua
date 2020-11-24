@@ -27,3 +27,4 @@ $this->setFrameMode(true);
         <li><a href="<?=$arResult['DETAIL_PAGE_URL'];?>"><small class="link"> </small><span>permalink</span></a></li>
     </ul>
 </div>
+
