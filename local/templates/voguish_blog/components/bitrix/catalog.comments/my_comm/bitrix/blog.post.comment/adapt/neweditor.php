@@ -53,7 +53,7 @@ BX.ready(function() {
 		entitiesId : {},
 		formId : '<?=$component->createPostFormId()?>',
 		editorId : '<?=$component->createEditorId()?>',
-		<?if(isset($switcerhId) && $switcerhId <> '') :?>
+		<?if(isset($switcerhId) && strlen($switcerhId) > 0) :?>
 		fileDialogSwitcherId : '<?=$switcerhId?>',
 		<?endif;?>
 		editorName : ''

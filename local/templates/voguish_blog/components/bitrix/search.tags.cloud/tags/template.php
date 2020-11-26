@@ -12,16 +12,15 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-    <?php if(is_array($arResult["SEARCH"]) && !empty($arResult["SEARCH"])): ?>
-        <div class="b-tag-weight">
-                <h3>Tags Weight</h3>
-                <noindex>
-                <ul>
-                    <?php foreach ($arResult["SEARCH"] as $key => $res): ?>
-                        <li><a href="<?=$res['URL'];?>"
-                            rel="nofollow"><?=$res['NAME'];?></a></li>
-                    <?php endforeach; ?>
-                </ul>
-                </noindex>
-            </div>
-    <?php endif; ?>
+<?php if(is_array($arResult["SEARCH"]) && !empty($arResult["SEARCH"])): ?>
+    <div class="b-tag-weight">
+        <h3>Tags Weight</h3>
+        <noindex>
+        <ul>
+            <?php foreach ($arResult["SEARCH"] as $key => $res): ?>
+                <li><a href="<?=$res['URL'];?>" rel="nofollow"><?=$res['NAME'];?></a></li>
+            <?php endforeach; ?>
+        </ul>
+        </noindex>
+    </div>
+<?php endif; ?>

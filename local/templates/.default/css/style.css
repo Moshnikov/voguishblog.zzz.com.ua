@@ -61,7 +61,7 @@ body a{
 	outline: none;
 }
 .head-nav {
-	
+
 }
 .head-nav ul{
 	padding:0;
@@ -213,7 +213,7 @@ a.morebtn:hover{
 	height: 15px;
 	width: 15px;
 	display: inline-block;
-	background:#555;	
+	background:#555;
 }
 .callbacks_here a:after{
 	background:#f53f1a;
@@ -293,7 +293,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 @media(max-width:320px){
 .callbacks_nav {
-  top: 173%;	
+  top: 173%;
 }
 .callbacks_nav.next {
   right: 69%;
@@ -766,7 +766,7 @@ h3.m_3 {
 }
 /*-- blog --*/
 .blog{
-	
+
 }
 .blog a{
 	text-decoration:none;
@@ -1350,7 +1350,7 @@ a.reply:hover{
   font-weight: 700;
   font-size: 1.5em;
   margin-bottom: 1em;
-	font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', serif;
 }
 .respon h5 {
   color: #fff;
@@ -1432,7 +1432,7 @@ i.inter {
 	margin: 0;
 	font-size: 1.2em;
 	text-transform: uppercase;
-} 
+}
 a.b-home{
 	background:#26313b;
 	padding:0.8em 3em;
@@ -1714,6 +1714,7 @@ div.register-bottom-grid {
 .nam-matis h3 {
   font-size: 1.3em;
 }
+
 .blo-top li a {
   font-size: 1em;
   padding: 1em 0;
@@ -2251,7 +2252,7 @@ a.b-home {
 .copyright p {
   font-size: 0.9em;
 }
-.footer li a { 
+.footer li a {
   font-size: 0.9em;
 }
 ul.span_2 li.span_2-right h3 {
@@ -2416,4 +2417,8 @@ ul.pagination {
 a.b-home {
 	font-size: 0.8125em;
 }
+}
+
+.blo-top ul{
+	padding: 0;
 }

@@ -48,7 +48,40 @@ if (!$templateData['BLOG']['BLOG_FROM_AJAX'])
 
 	if ($arResult['BLOG_USE'])
 	{
-		$templateData['BLOG']['AJAX_PARAMS'] = $arResult['BLOG_AJAX_PARAMS'];
+		$templateData['BLOG']['AJAX_PARAMS'] = array(
+			'IBLOCK_ID' => $arResult['ELEMENT']['IBLOCK_ID'],
+			'ELEMENT_ID' => $arResult['ELEMENT']['ID'],
+			'URL_TO_COMMENT' => $arParams['~URL_TO_COMMENT'],
+			'WIDTH' => $arParams['WIDTH'],
+			'COMMENTS_COUNT' => $arParams['COMMENTS_COUNT'],
+			'BLOG_USE' => 'Y',
+			'BLOG_FROM_AJAX' => 'Y',
+			'FB_USE' => 'N',
+			'VK_USE' => 'N',
+			'BLOG_TITLE' => $arParams['~BLOG_TITLE'],
+			'BLOG_URL' => $arParams['~BLOG_URL'],
+			'PATH_TO_SMILE' => $arParams['~PATH_TO_SMILE'],
+			'EMAIL_NOTIFY' => $arParams['EMAIL_NOTIFY'],
+			'AJAX_POST' => $arParams['AJAX_POST'],
+			'SHOW_SPAM' => $arParams['SHOW_SPAM'],
+			'SHOW_RATING' => $arParams['SHOW_RATING'],
+			'RATING_TYPE' => $arParams['~RATING_TYPE'],
+			'CACHE_TYPE' => 'N',
+			'CACHE_TIME' => '0',
+			'CACHE_GROUPS' => $arParams['CACHE_GROUPS'],
+			'TEMPLATE_THEME' => $arParams['~TEMPLATE_THEME'],
+			'SHOW_DEACTIVATED' => $arParams['SHOW_DEACTIVATED'],
+			'CHECK_DATES' => $arParams['CHECK_DATES']
+		);
+
+		if(isset($arParams["USER_CONSENT"]))
+			$templateData['BLOG']['AJAX_PARAMS']["USER_CONSENT"] = $arParams["USER_CONSENT"];
+		if(isset($arParams["USER_CONSENT_ID"]))
+			$templateData['BLOG']['AJAX_PARAMS']["USER_CONSENT_ID"] = $arParams["USER_CONSENT_ID"];
+		if(isset($arParams["USER_CONSENT_IS_CHECKED"]))
+			$templateData['BLOG']['AJAX_PARAMS']["USER_CONSENT_IS_CHECKED"] = $arParams["USER_CONSENT_IS_CHECKED"];
+		if(isset($arParams["USER_CONSENT_IS_LOADED"]))
+			$templateData['BLOG']['AJAX_PARAMS']["USER_CONSENT_IS_LOADED"] = $arParams["USER_CONSENT_IS_LOADED"];
 
 		$arJSParams['serviceList']['blog'] = true;
 		$arJSParams['settings']['blog'] = array(
@@ -66,7 +99,7 @@ if (!$templateData['BLOG']['BLOG_FROM_AJAX'])
 
 	if ($arParams["FB_USE"] == "Y")
 	{
-		$currentLanguage = mb_strtolower(LANGUAGE_ID);
+		$currentLanguage = strtolower(LANGUAGE_ID);
 		switch ($currentLanguage)
 		{
 			case 'en':
@@ -79,7 +112,7 @@ if (!$templateData['BLOG']['BLOG_FROM_AJAX'])
 				$facebookLocale = 'be_BY';
 				break;
 			default:
-				$facebookLocale = $currentLanguage.'_'.mb_strtoupper(LANGUAGE_ID);
+				$facebookLocale = $currentLanguage.'_'.strtoupper(LANGUAGE_ID);
 		}
 		$arJSParams['serviceList']['facebook'] = true;
 		$arJSParams['settings']['facebook'] = array(
@@ -110,7 +143,7 @@ if (!$templateData['BLOG']['BLOG_FROM_AJAX'])
 						if (!!window.VK)
 						{
 							VK.init({
-								apiId: "'.(isset($arParams["VK_API_ID"]) && $arParams["VK_API_ID"] <> '' ? $arParams["VK_API_ID"] : "API_ID").'",
+								apiId: "'.(isset($arParams["VK_API_ID"]) && strlen($arParams["VK_API_ID"]) > 0 ? $arParams["VK_API_ID"] : "API_ID").'",
 								onlyWidgets: true
 							});
 

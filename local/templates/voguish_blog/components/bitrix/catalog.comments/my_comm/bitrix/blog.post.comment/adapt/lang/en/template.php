@@ -52,5 +52,4 @@ $MESS["BLOG_P_IMAGE_UPLOAD"] = "Upload Image";
 $MESS["BLOG_PHOTO"] = "Photo:";
 $MESS["MPF_IMAGE_TITLE"] = "Insert image";
 $MESS["BLOG_ADD_FILES"] = "Add files";
-$MESS["BPC_ERROR_NO_TEXT"] = "Message text is required";
 ?>

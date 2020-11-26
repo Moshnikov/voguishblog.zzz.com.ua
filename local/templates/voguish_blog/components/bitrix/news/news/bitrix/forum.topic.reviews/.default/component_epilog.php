@@ -42,7 +42,7 @@ if ($arParams['AJAX_POST']=='Y' && ($_REQUEST["save_product_review"] == "Y"))
 				'pageCount' => $arResult['PAGE_COUNT']
 			);
 
-			if (mb_strlen($messagePost) < 1 && !($arResult["USER"]["RIGHTS"]["MODERATE"] != "Y" && $arResult["FORUM"]["MODERATION"] == "Y"))
+			if (strlen($messagePost) < 1 && !($arResult["USER"]["RIGHTS"]["MODERATE"] != "Y" && $arResult["FORUM"]["MODERATION"] == "Y"))
 				$JSResult += array('reload' => true);
 		} 
 		else 
@@ -63,10 +63,10 @@ if ($arParams['AJAX_POST']=='Y' && ($_REQUEST["save_product_review"] == "Y"))
 					'messageID' => $result,
 					'message' => $messagePost
 				);
-				if (mb_strlen($messagePost) < 1 && !($result > 0 && $arResult["USER"]["RIGHTS"]["MODERATE"] != "Y" && $arResult["FORUM"]["MODERATION"] == "Y"))
+				if (strlen($messagePost) < 1 && !($result > 0 && $arResult["USER"]["RIGHTS"]["MODERATE"] != "Y" && $arResult["FORUM"]["MODERATION"] == "Y"))
 					$JSResult += array('reload' => true);
 
-				if (mb_strpos($JSResult['message'], "onForumImageLoad") !== false)
+				if (strpos($JSResult['message'], "onForumImageLoad") !== false)
 				{
 					$SHParser = new CForumSimpleHTMLParser($APPLICATION->GetHeadStrings());
 					$scripts = $SHParser->getInnerHTML('<!--LOAD_SCRIPT-->', '<!--END_LOAD_SCRIPT-->');
@@ -86,7 +86,7 @@ if ($arParams['AJAX_POST']=='Y' && ($_REQUEST["save_product_review"] == "Y"))
 				'status' => true,
 				'previewMessage' => $messagePreview,
 			);
-			if (mb_strpos($JSResult['previewMessage'], "onForumImageLoad") !== false)
+			if (strpos($JSResult['previewMessage'], "onForumImageLoad") !== false)
 			{
 				$SHParser = new CForumSimpleHTMLParser($APPLICATION->GetHeadStrings());
 				$scripts = $SHParser->getInnerHTML('<!--LOAD_SCRIPT-->', '<!--END_LOAD_SCRIPT-->');
