@@ -18,6 +18,12 @@ $this->setFrameMode(true);
 
 <?=$arResult['DETAIL_TEXT'];?>
 
+<?php if(!empty($arResult['PROPERTIES']['GALLERY']['VALUE'])):?>
+    <?php foreach ($arResult['PROPERTIES']['GALLERY']['VALUE'] as $photo) :?>
+        <a class="fancybox" rel="group" href="<?=CFile::GetPath($photo);?>"><img src="<?=CFile::GetPath($photo);?>" alt="" width="200"></a>
+    <?php endforeach; ?>
+<?php endif;?>
+
 <div class="artical-links">
     <ul>
         <li><small> </small><span><?=$arResult['DISPLAY_ACTIVE_FROM'];?></span></li>
@@ -27,3 +33,9 @@ $this->setFrameMode(true);
         <li><a href="<?=$arResult['DETAIL_PAGE_URL'];?>"><small class="link"> </small><span>permalink</span></a></li>
     </ul>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
