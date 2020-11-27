@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("keywords_inner", "Voguish - сайт моды");
 $APPLICATION->SetPageProperty("title", "Voguish - сайт моды");
 $APPLICATION->SetPageProperty("keywords", "Voguish - сайт моды");
@@ -101,4 +101,4 @@ $res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>4),
     </div>
 <?php endif; ?>
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

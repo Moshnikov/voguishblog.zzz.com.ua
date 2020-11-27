@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("keywords_inner", "Регистрация");
 $APPLICATION->SetPageProperty("title", "Регистрация");
 $APPLICATION->SetPageProperty("keywords", "Регистрация");
@@ -16,4 +16,4 @@ $APPLICATION->SetTitle("Регистрация");
 		"USE_BACKURL" => "Y",	// Отправлять пользователя по обратной ссылке, если она есть
 	),
 	false
-);?><br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");?>
+);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

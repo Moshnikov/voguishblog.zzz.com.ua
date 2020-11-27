@@ -1,6 +1,6 @@
 <?
 define("NEED_AUTH", true);
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Login");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:system.auth.form", 
@@ -13,4 +13,4 @@ $APPLICATION->SetTitle("Login");
 		"COMPONENT_TEMPLATE" => "login"
 	),
 	false
-);?><br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");?>
+);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
