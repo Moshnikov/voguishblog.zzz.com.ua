@@ -4,6 +4,7 @@
 	"bitrix:catalog.comments", 
 	"my_comm", 
 	array(
+	    "AJAX_POST" => "Y",
 		"BLOG_USE" => "Y",
 		"CACHE_TIME" => "0",
 		"CACHE_TYPE" => "A",

@@ -27,10 +27,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, initial-scale=1">');
         Asset::getInstance()->addString("<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>");
         Asset::getInstance()->addString("<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>");
-        Asset::getInstance()->addString('<link type="image/x-icon" href="' . DEFAULT_TEMPLATE_PATH . '/favicon.ico" rel="shortcut icon" />');
+    Asset::getInstance()->addString('<link type="image/x-icon" href="' . DEFAULT_TEMPLATE_PATH . '/favicon.ico" rel="shortcut icon" />');
     ?>
-
-
 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 

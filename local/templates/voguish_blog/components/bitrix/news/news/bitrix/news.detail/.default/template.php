@@ -18,11 +18,11 @@ $this->setFrameMode(true);
 
 <?=$arResult['DETAIL_TEXT'];?>
 
-<?php if(!empty($arResult['PROPERTIES']['GALLERY']['VALUE'])):?>
-    <?php foreach ($arResult['PROPERTIES']['GALLERY']['VALUE'] as $photo) :?>
+<?php if(!empty($arResult['PROPERTIES']['GALLERY']['VALUE'])): ?>
+    <?php foreach($arResult['PROPERTIES']['GALLERY']['VALUE'] as $photo): ?>
         <a class="fancybox" rel="group" href="<?=CFile::GetPath($photo);?>"><img src="<?=CFile::GetPath($photo);?>" alt="" width="200"></a>
     <?php endforeach; ?>
-<?php endif;?>
+<?php endif; ?>
 
 <div class="artical-links">
     <ul>

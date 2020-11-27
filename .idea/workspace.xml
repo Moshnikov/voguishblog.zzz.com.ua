@@ -52,19 +52,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local" />
+      <recent name="$PROJECT_DIR$/local/templates/.default" />
+      <recent name="$PROJECT_DIR$/local/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/local/templates/voguish_index/components/bitrix/news.list" />
-      <recent name="$PROJECT_DIR$/local/templates/voguish_index" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/local/templates/.default" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/local/templates/.default" />
       <recent name="$PROJECT_DIR$/bitrix/components/bitrix" />
       <recent name="$PROJECT_DIR$/local/templates" />
       <recent name="$PROJECT_DIR$/local/templates/voguish_index" />
@@ -88,7 +90,7 @@
       <workItem from="1605539762480" duration="27937000" />
       <workItem from="1605956135540" duration="13954000" />
       <workItem from="1606226660345" duration="20491000" />
-      <workItem from="1606396829841" duration="7305000" />
+      <workItem from="1606396829841" duration="10848000" />
     </task>
     <servers />
   </component>
